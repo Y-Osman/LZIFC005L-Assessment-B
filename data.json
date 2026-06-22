@@ -1,0 +1,20 @@
+{
+  "name": "Yassin Osman",
+  "title": "Cyber Security Analyst",
+  "motivation": "I built this website as a project for my Computer Science Ecosystems course. It serves as a job application process to showcase how I can develop secure, dynamic web applications",
+  "about": "Hi, my name is Yassin! I am a student at Lancaster University Leipzig studying Computer Science. I enjoy learning how to build modern websites using HTML, CSS, and JavaScript, and exploring secure system infrastructures, version control, and shell automation scripting.",
+  "skills": [
+    "Network Security & Firewalls",
+    "Vulnerability Assessment",
+    "Linux & Bash Scripting",
+    "Git & Secure Version Control",
+    "Python for Security Tasks"
+  ],
+  "education": [
+    {
+      "institution": "Lancaster University Leipzig",
+      "degree": "BSc (Hons) Computer Science",
+      "years": "2025 - Present"
+    }
+  ]
+}
