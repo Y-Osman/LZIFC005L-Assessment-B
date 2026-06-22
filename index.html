@@ -8,37 +8,48 @@
 </head>
 <body>
 
-    
     <header>
         <nav>
-            <div class="logo">Yassin's Portfolio</div>
+            <div class="logo">Yassin Osman</div>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="cv.html">About Yassin (CV)</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><button id="theme-toggle">Toggle Theme</button></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        
-        <section class="card fade-in">
-            <h1>Welcome to My Portfolio</h1>
-            <hr>
-            <h2>Project Motivation</h2>
-            
-            <p id="project-motivation-text"></p> 
+        <section class="hero-section">
+            <h1 id="hero-title"></h1>
+            <span class="cursor">|</span>
         </section>
 
-        
-        <section class="card fade-in">
-            <h2>Meet the Developer</h2>
+        <section>
+            <h2>About Me</h2>
             <hr>
             <div class="developer-profile">
-                
-                <img src="your-profile-pic-name.jpg" alt="Yassin Osman" class="profile-img" id="profile-pic">
-                
+                <img src="IMG_7596.jpg" alt="Yassin Osman" class="profile-img" id="profile-pic">
                 <p id="about-text"></p>
             </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <hr>
+            <ul id="skills-container"></ul>
+        </section>
+
+        <section>
+            <h2>Education History</h2>
+            <hr>
+            <div id="education-container"></div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <hr>
+            <div id="projects-container"></div>
         </section>
     </main>
 

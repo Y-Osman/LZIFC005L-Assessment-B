@@ -16,5 +16,15 @@
       "degree": "BSc (Hons) Computer Science",
       "years": "2025 - Present"
     }
+  ],
+  "projects": [
+    {
+      "name": "Static Professional CV Portfolio",
+      "description": "The first project for this course. It is a clean, static website built using HTML and CSS to show my formal resume and background."
+    },
+    {
+      "name": "Dynamic Web Application Ecosystem",
+      "description": "The second project for this course. It uses JavaScript to load data dynamically from a JSON file, features interactive animations, and includes a dark mode toggle button."
+    }
   ]
 }
