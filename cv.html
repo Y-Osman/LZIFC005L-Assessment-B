@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yassin Osman | CV Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Consistent Navigation Layout -->
+    <header>
+        <nav>
+            <div class="logo">YO Portfolio</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html" class="active">Full CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CV Details Section -->
+    <main>
+        <section id="cv-content" class="fade-in">
+            <h2>Curriculum</h2>
+            
+            <div class="cv-block">
+                <h3>Education</h3>
+                <!-- app.js will loop through JSON and inject education here -->
+                <div id="education-container"></div>
+            </div>
+
+            <div class="cv-block">
+                <h3>Technical Skills</h3>
+                <!-- app.js will loop through JSON and inject bullet points here -->
+                <ul id="skills-container"></ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
